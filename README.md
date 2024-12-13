@@ -1,8 +1,10 @@
-![BANAS Yann](https://raw.githubusercontent.com/yannbanas/yannbanas/refs/heads/main/banner.svg)
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/refs/heads/main/banner.svg" alt="BANAS Yann" />
+</h1>
+
 
 ![Junior Python Developer](https://img.shields.io/badge/Role-Junior%20Python%20Developer-blue)
 
-==================================================================================================================================
 
 DevOps, Backend Python Developper
 ---------------------------------
