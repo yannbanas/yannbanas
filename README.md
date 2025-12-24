@@ -72,10 +72,7 @@ class QuantumBioinformatician:
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=yannbanas&hide_border=true&background=0a0f1a&stroke=1a2744&ring=00ffc8&fire=ff6b9d&currStreakNum=00ffc8&sideNums=7b5cff&currStreakLabel=00ffc8&sideLabels=8892b0&dates=5a6785"/>
-    <img src="https://streak-stats.demolab.com/?user=yannbanas&hide_border=true&background=0a0f1a&stroke=1a2744&ring=00ffc8&fire=ff6b9d&currStreakNum=00ffc8&sideNums=7b5cff&currStreakLabel=00ffc8&sideLabels=8892b0&dates=5a6785" alt="GitHub Streak" width="100%"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/streak-stats.svg" alt="Coding Activity" width="100%"/>
 </p>
 
 </td>
@@ -102,50 +99,35 @@ class QuantumBioinformatician:
 
 <br/>
 
-<table align="center" border="0" cellspacing="20" cellpadding="0">
-<tr>
-<td align="center">
+<p align="center">
   <a href="https://github.com/yannbanas/pnph">
-    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-pnph.svg" alt="PNPH Project" width="400"/>
+    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-pnph.svg" alt="PNPH Project" width="90%"/>
   </a>
-</td>
-<td align="center">
+</p>
+
+<br/>
+
+<p align="center">
   <a href="https://github.com/yannbanas/fp-predict">
-    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-fppredict.svg" alt="FP-Predict Project" width="400"/>
+    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-fppredict.svg" alt="FP-Predict Project" width="90%"/>
   </a>
-</td>
-</tr>
-<tr>
-<td align="center">
+</p>
+
+<br/>
+
+<p align="center">
   <a href="https://github.com/yannbanas/panlunadra">
-    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-panlunadra.svg" alt="Panlunadra Universe" width="400"/>
+    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-panlunadra.svg" alt="Panlunadra Universe" width="90%"/>
   </a>
-</td>
-<td align="center">
-
-### 🔬 OptogeneticDB
-
-<p align="left">
-<img src="https://img.shields.io/badge/Status-Active-00ffc8?style=flat-square&labelColor=0a0f1a" alt="Status"/>
 </p>
 
-Comprehensive database of optogenetic indicators with measurement uncertainties for the PNPH project.
+<br/>
 
-**Features:**
-- 📊 Curated FP spectral data
-- 📈 Uncertainty quantification  
-- 🧬 ChromoQ benchmarking
-- 🔗 Si₃N₄ waveguide coupling
-
-<p>
-<img src="https://img.shields.io/badge/Python-00ffc8?style=flat-square&logo=python&logoColor=0a0f1a" alt="Python"/>
-<img src="https://img.shields.io/badge/SQLite-7b5cff?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
-<img src="https://img.shields.io/badge/Pandas-ff6b9d?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+<p align="center">
+  <a href="https://github.com/yannbanas/optogeneticdb">
+    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-optogeneticdb.svg" alt="OptogeneticDB" width="90%"/>
+  </a>
 </p>
-
-</td>
-</tr>
-</table>
 
 <br/>
 
