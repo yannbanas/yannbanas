@@ -1,78 +1,335 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/refs/heads/main/banner.svg" alt="BANAS Yann" />
+  <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/banner.svg" alt="Yann Banas - Quantum Bioinformatics" width="100%"/>
 </h1>
 
+<p align="center">
+  <a href="mailto:yannbanas@gmail.com">
+    <img src="https://img.shields.io/badge/Email-yannbanas%40gmail.com-00ffc8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0f1a" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/yann-banas-440a63156">
+    <img src="https://img.shields.io/badge/LinkedIn-Yann_Banas-7b5cff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0f1a" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/yannbanas">
+    <img src="https://img.shields.io/badge/GitHub-yannbanas-ff6b9d?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1a" alt="GitHub"/>
+  </a>
+  <a href="https://discord.com/users/ybanas">
+    <img src="https://img.shields.io/badge/Discord-ybanas-00d4ff?style=for-the-badge&logo=discord&logoColor=white&labelColor=0a0f1a" alt="Discord"/>
+  </a>
+</p>
 
-![Junior Python Developer](https://img.shields.io/badge/Role-Junior%20Python%20Developer-blue)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=yannbanas&style=for-the-badge&color=00ffc8&label=PROFILE+VIEWS&labelColor=0a0f1a" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/yannbanas?style=for-the-badge&color=7b5cff&labelColor=0a0f1a&logo=github" alt="Followers"/>
+  <img src="https://img.shields.io/badge/Open_To-Work-00ffc8?style=for-the-badge&labelColor=0a0f1a" alt="Open to work"/>
+</p>
 
+---
 
-DevOps, Backend Python Developper
----------------------------------
+<br/>
 
-I have been passionate about computer science since I was young. I enjoy studying and creating small projects, starting with RPG Maker, then Lua Love 2D, a bit of Unity, and later Python. I also like task automation and new technologies. I love reading articles on photonics, quantum technologies, and more.
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50%" valign="top">
 
-* 🌍  I'm based in FRENCH
-* ✉️  You can contact me at [yannbanas@gmail.com](mailto:yannbanas@gmail.com)
-* 🚀  I'm currently working on [#OpenToWork](http://banastechnologie.cloud)
-* 🧠  I'm learning Graph Theory
-* 🤝  I'm open to collaborating on python library or any little python project
-* ⚡  I love Cave and paraglide
-
-<a href="https://www.github.com/yannbanas" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/yannbanas?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-
-### About App
+## 🧬 À Propos
 
 ```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-class JuniorPythonDeveloper:
+class QuantumBioinformatician:
     def __init__(self):
         self.name = "Yann Banas"
-        self.role = "Junior Python Developer"
-        self.languages_spoken = ["French (fr_FR)", "English (en_US)"]
-        self.skills = {
-            "Backend": ["Django", "FastAPI", "Flask", "Dramatiq", "rabbitmq"],
-            "Frontend": ["HTML5", "CSS3", "Bootstrap"],
-            "Databases": ["MongoDB", "MySQL", "PostgreSQL"],
-            "DevOps": ["Docker", "AWS", "Linux"],
-            "Other": ["Python", "C#", "Visual Studio Code", "Unity", "WordPress", "Wix"]
+        self.role = "Systems & Networks Tech"
+        self.location = "Le Creusot, France 🇫🇷"
+        
+        self.education = {
+            "license": "Software Development",
+            "thesis": "PNPH Doctoral Research",
+            "specialty": "Quantum Neurobiology"
         }
-        self.interests = ["Task Automation", "Photonics", "Quantum Technologies"]
+        
+        self.passion = [
+            "Bioinformatics",
+            "Photonics & Quantum",
+            "Machine Learning",
+            "Science Fiction Writing"
+        ]
+        
+        self.hobbies = ["🦇 Caving", "🪂 Paragliding"]
     
-    def say_hi(self):
-        print("Thanks for dropping by! I hope you find some of my work interesting.")
-
-    def list_skills(self):
-        print("### Skills")
-        for category, skills in self.skills.items():
-            print(f"**{category}:** " + ", ".join(skills))
-
-    def list_languages(self):
-        print("### Languages Spoken")
-        for language in self.languages_spoken:
-            print(f"- {language}")
-
-    def list_interests(self):
-        print("### Interests")
-        for interest in self.interests:
-            print(f"- {interest}")
-
-if __name__ == "__main__":
-    me = JuniorPythonDeveloper()
-    me.say_hi()
-    me.list_skills()
-    me.list_languages()
-    me.list_interests()
+    def current_focus(self):
+        return "ChromoQ proteins + ML spectral prediction"
 ```
 
-### Socials
+</td>
+<td width="50%" valign="top">
 
-<p align="left"> <a href="https://discord.com/users/ybanas" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /> </picture> </a> <a href="https://www.facebook.com/BanasYann" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /> </picture> </a> <a href="https://www.github.com/yannbanas" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/yann-banas-440a63156" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a></p>
+## ⚡ Quick Stats
 
-### Badges
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yannbanas&show_icons=true&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&icon_color=7b5cff&ring_color=00ffc8" alt="GitHub Stats" width="100%"/>
+</p>
 
-<b>Top Repositories</b>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yannbanas&hide_border=true&background=0a0f1a&stroke=1a2744&ring=00ffc8&fire=ff6b9d&currStreakNum=00ffc8&sideNums=7b5cff&currStreakLabel=00ffc8&sideLabels=8892b0&dates=5a6785" alt="GitHub Streak" width="100%"/>
+</p>
 
-<div width="100%" align="center"><a href="https://github.com/yannbanas/mrkdwn_analysis" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=yannbanas&repo=mrkdwn_analysis&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/skills-hexagons.svg" alt="Tech Stack" width="100%"/>
+</h2>
+
+<br/>
+
+---
+
+<br/>
+
+<h2 align="center">🚀 FLAGSHIP PROJECTS</h2>
+
+<br/>
+
+<table align="center" border="0" cellspacing="20" cellpadding="0">
+<tr>
+<td align="center">
+  <a href="https://github.com/yannbanas/pnph">
+    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-pnph.svg" alt="PNPH Project" width="400"/>
+  </a>
+</td>
+<td align="center">
+  <a href="https://github.com/yannbanas/fp-predict">
+    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-fppredict.svg" alt="FP-Predict Project" width="400"/>
+  </a>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <a href="https://github.com/yannbanas/panlunadra">
+    <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/project-panlunadra.svg" alt="Panlunadra Universe" width="400"/>
+  </a>
+</td>
+<td align="center">
+
+### 🔬 OptogeneticDB
+
+<p align="left">
+<img src="https://img.shields.io/badge/Status-Active-00ffc8?style=flat-square&labelColor=0a0f1a" alt="Status"/>
+</p>
+
+Comprehensive database of optogenetic indicators with measurement uncertainties for the PNPH project.
+
+**Features:**
+- 📊 Curated FP spectral data
+- 📈 Uncertainty quantification  
+- 🧬 ChromoQ benchmarking
+- 🔗 Si₃N₄ waveguide coupling
+
+<p>
+<img src="https://img.shields.io/badge/Python-00ffc8?style=flat-square&logo=python&logoColor=0a0f1a" alt="Python"/>
+<img src="https://img.shields.io/badge/SQLite-7b5cff?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+<img src="https://img.shields.io/badge/Pandas-ff6b9d?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+</p>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+<h2 align="center">📚 RESEARCH TIMELINE</h2>
+
+<br/>
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#7b5cff', 'primaryTextColor': '#00ffc8', 'primaryBorderColor': '#00ffc8', 'lineColor': '#7b5cff', 'secondaryColor': '#0a0f1a', 'tertiaryColor': '#0d1321'}}}%%
+gantt
+    title 🧬 Research & Development Timeline
+    dateFormat  YYYY-MM
+    axisFormat  %Y
+
+    section 📖 Education
+    License Software Dev        :done, 2020-09, 2023-06
+    Master Bioinformatics       :active, 2024-09, 2025-06
+    PhD Quantum Neurobiology    :2025-09, 2028-09
+
+    section 🔬 PNPH Project
+    ChromoQ Design              :done, 2024-01, 2024-06
+    AlphaFold2 Simulations      :done, 2024-06, 2024-12
+    ML Spectral Prediction      :active, 2024-09, 2025-06
+    GROMACS MD Simulations      :2025-01, 2025-12
+    MEA Integration             :2025-06, 2026-12
+
+    section ✍️ Publications
+    Photons Book (Amazon)       :done, 2024-03, 2024-06
+    FP Educational Series       :active, 2024-09, 2025-06
+    PNPH Thesis                 :2025-09, 2028-09
+```
+
+<br/>
+
+---
+
+<br/>
+
+<h2 align="center">💻 TECH ARSENAL</h2>
+
+<br/>
+
+<p align="center">
+
+<!-- Bioinformatics -->
+<img src="https://img.shields.io/badge/AlphaFold2-00ffc8?style=for-the-badge&logo=google-deepmind&logoColor=0a0f1a" alt="AlphaFold2"/>
+<img src="https://img.shields.io/badge/ColabFold-00ffc8?style=for-the-badge&logo=google-colab&logoColor=0a0f1a" alt="ColabFold"/>
+<img src="https://img.shields.io/badge/GROMACS-00ffc8?style=for-the-badge&logoColor=0a0f1a" alt="GROMACS"/>
+<img src="https://img.shields.io/badge/PyMOL-00ffc8?style=for-the-badge&logoColor=0a0f1a" alt="PyMOL"/>
+<img src="https://img.shields.io/badge/BioPython-00ffc8?style=for-the-badge&logo=python&logoColor=0a0f1a" alt="BioPython"/>
+
+</p>
+
+<p align="center">
+
+<!-- Quantum & ML -->
+<img src="https://img.shields.io/badge/PySCF-7b5cff?style=for-the-badge&logoColor=white" alt="PySCF"/>
+<img src="https://img.shields.io/badge/Qiskit-7b5cff?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit"/>
+<img src="https://img.shields.io/badge/XGBoost-7b5cff?style=for-the-badge&logo=xgboost&logoColor=white" alt="XGBoost"/>
+<img src="https://img.shields.io/badge/scikit--learn-7b5cff?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+<img src="https://img.shields.io/badge/TensorFlow-7b5cff?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+
+</p>
+
+<p align="center">
+
+<!-- Python Stack -->
+<img src="https://img.shields.io/badge/Python-ff6b9d?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/FastAPI-ff6b9d?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Django-ff6b9d?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
+<img src="https://img.shields.io/badge/Flask-ff6b9d?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+<img src="https://img.shields.io/badge/Pandas-ff6b9d?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+
+</p>
+
+<p align="center">
+
+<!-- DevOps & Databases -->
+<img src="https://img.shields.io/badge/Docker-00d4ff?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/AWS-00d4ff?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
+<img src="https://img.shields.io/badge/PostgreSQL-00d4ff?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/MongoDB-00d4ff?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/RabbitMQ-00d4ff?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
+
+</p>
+
+<br/>
+
+---
+
+<br/>
+
+<h2 align="center">📊 CONTRIBUTION ACTIVITY</h2>
+
+<br/>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yannbanas&bg_color=0a0f1a&color=00ffc8&line=7b5cff&point=ff6b9d&area=true&area_color=7b5cff&hide_border=true" alt="Contribution Graph" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yannbanas&layout=compact&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&langs_count=8" alt="Top Languages"/>
+</p>
+
+<br/>
+
+---
+
+<br/>
+
+<h2 align="center">🌟 FEATURED REPOSITORIES</h2>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/yannbanas/mrkdwn_analysis">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yannbanas&repo=mrkdwn_analysis&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&icon_color=7b5cff" alt="mrkdwn_analysis"/>
+  </a>
+  <a href="https://github.com/yannbanas/chromoq">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yannbanas&repo=chromoq&hide_border=true&bg_color=0a0f1a&title_color=ff6b9d&text_color=8892b0&icon_color=7b5cff" alt="chromoq"/>
+  </a>
+</p>
+
+<br/>
+
+---
+
+<br/>
+
+<h2 align="center">📖 PUBLICATIONS & CONTENT</h2>
+
+<br/>
+
+<table align="center" border="0">
+<tr>
+<td align="center" width="33%">
+
+### 📕 Book on Photons
+<p align="center">
+<img src="https://img.shields.io/badge/Amazon-Available-ff6b9d?style=for-the-badge&logo=amazon&logoColor=white&labelColor=0a0f1a" alt="Amazon"/>
+</p>
+
+Educational book exploring the fascinating world of photons, quantum mechanics, and biophotonics.
+
+</td>
+<td align="center" width="33%">
+
+### 📗 FP Educational Series
+<p align="center">
+<img src="https://img.shields.io/badge/Status-In_Progress-00ffc8?style=for-the-badge&labelColor=0a0f1a" alt="In Progress"/>
+</p>
+
+Book series on fluorescent proteins, chromophores, biomineralization, and biophotonics.
+
+</td>
+<td align="center" width="33%">
+
+### 📘 PNPH Thesis
+<p align="center">
+<img src="https://img.shields.io/badge/Status-2025--2028-7b5cff?style=for-the-badge&labelColor=0a0f1a" alt="Upcoming"/>
+</p>
+
+Doctoral thesis on Photonic-Neural Hybrid Platform and quantum neurobiology.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yannbanas/yannbanas/main/assets/footer-line.svg" alt="Footer" width="100%"/>
+</p>
+
+<p align="center">
+  <i>"At the intersection of quantum physics and biology, we find the poetry of existence."</i>
+</p>
+
+<p align="center">
+  <sub>💫 Made with passion by <b>Yann Banas</b> — Exploring the frontiers of science</sub>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=100&section=footer" width="100%"/>
+</p>
