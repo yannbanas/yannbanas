@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <!-- Gradients principaux du style site -->
+    <linearGradient id="cyberGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ffc8"/>
+      <stop offset="50%" stop-color="#7b5cff"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="cyberGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b9d"/>
+      <stop offset="50%" stop-color="#7b5cff"/>
+      <stop offset="100%" stop-color="#00ffc8"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="50%" stop-color="#0d1321"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+    
+    <!-- Glow filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Patterns -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a2744" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hexPattern" width="60" height="52" patternUnits="userSpaceOnUse">
+      <polygon points="30,2 55,15 55,37 30,50 5,37 5,15" fill="none" stroke="#1a2744" stroke-width="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#hexPattern)" opacity="0.4"/>
+  
+  <!-- Lignes de circuit gauche -->
+  <g stroke="url(#cyberGrad1)" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M0,150 L80,150 L100,130 L150,130">
+      <animate attributeName="stroke-dasharray" values="0,300;300,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,170 L60,170 L80,190 L130,190 L150,170">
+      <animate attributeName="stroke-dasharray" values="0,350;350,0" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,130 L40,130 L60,110 L120,110">
+      <animate attributeName="stroke-dasharray" values="0,280;280,0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="150" cy="130" r="3" fill="#00ffc8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="170" r="3" fill="#7b5cff">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="110" r="3" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Lignes de circuit droite -->
+  <g stroke="url(#cyberGrad2)" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M1200,150 L1120,150 L1100,130 L1050,130">
+      <animate attributeName="stroke-dasharray" values="0,300;300,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200,170 L1140,170 L1120,190 L1070,190 L1050,170">
+      <animate attributeName="stroke-dasharray" values="0,350;350,0" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200,130 L1160,130 L1140,110 L1080,110">
+      <animate attributeName="stroke-dasharray" values="0,280;280,0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="1050" cy="130" r="3" fill="#ff6b9d">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="170" r="3" fill="#7b5cff">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="110" r="3" fill="#00ffc8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Logo hexagonal central -->
+  <g transform="translate(200, 100)" filter="url(#glow)">
+    <polygon points="50,5 90,27 90,72 50,95 10,72 10,27" fill="none" stroke="url(#cyberGrad1)" stroke-width="2">
+      <animate attributeName="stroke-dasharray" values="0,300;300,300" dur="4s" fill="freeze"/>
+    </polygon>
+    <circle cx="50" cy="50" r="18" fill="none" stroke="url(#cyberGrad2)" stroke-width="2"/>
+    <circle cx="50" cy="50" r="8" fill="url(#cyberGrad1)">
+      <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Lignes connectrices -->
+    <line x1="50" y1="32" x2="50" y2="15" stroke="url(#cyberGrad1)" stroke-width="1.5"/>
+    <line x1="65" y1="41" x2="82" y2="30" stroke="url(#cyberGrad1)" stroke-width="1.5"/>
+    <line x1="65" y1="59" x2="82" y2="70" stroke="url(#cyberGrad1)" stroke-width="1.5"/>
+    <line x1="50" y1="68" x2="50" y2="85" stroke="url(#cyberGrad1)" stroke-width="1.5"/>
+    <line x1="35" y1="59" x2="18" y2="70" stroke="url(#cyberGrad1)" stroke-width="1.5"/>
+    <line x1="35" y1="41" x2="18" y2="30" stroke="url(#cyberGrad1)" stroke-width="1.5"/>
+    <!-- Photons aux sommets -->
+    <circle cx="50" cy="10" r="4" fill="#00ffc8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="85" cy="27" r="4" fill="#7b5cff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="85" cy="72" r="4" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="50" cy="90" r="4" fill="#ff6b9d">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="15" cy="72" r="4" fill="#00ffc8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="15" cy="27" r="4" fill="#7b5cff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- DNA Helix animée -->
+  <g transform="translate(950, 60)" opacity="0.8">
+    <path d="M0,0 Q20,45 0,90 Q-20,135 0,180" fill="none" stroke="#00ffc8" stroke-width="2">
+      <animate attributeName="d" values="M0,0 Q20,45 0,90 Q-20,135 0,180;M0,0 Q-20,45 0,90 Q20,135 0,180;M0,0 Q20,45 0,90 Q-20,135 0,180" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M30,0 Q10,45 30,90 Q50,135 30,180" fill="none" stroke="#ff6b9d" stroke-width="2">
+      <animate attributeName="d" values="M30,0 Q10,45 30,90 Q50,135 30,180;M30,0 Q50,45 30,90 Q10,135 30,180;M30,0 Q10,45 30,90 Q50,135 30,180" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <!-- Base pairs -->
+    <g stroke="#7b5cff" stroke-width="1.5">
+      <line x1="5" y1="20" x2="25" y2="20" opacity="0.7"/>
+      <line x1="0" y1="50" x2="30" y2="50" opacity="0.7"/>
+      <line x1="5" y1="80" x2="25" y2="80" opacity="0.7"/>
+      <line x1="0" y1="110" x2="30" y2="110" opacity="0.7"/>
+      <line x1="5" y1="140" x2="25" y2="140" opacity="0.7"/>
+      <line x1="0" y1="170" x2="30" y2="170" opacity="0.7"/>
+    </g>
+  </g>
+  
+  <!-- Texte principal -->
+  <g transform="translate(330, 120)">
+    <text font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#cyberGrad1)" filter="url(#glow)">
+      YANN BANAS
+    </text>
+    <text y="45" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#8892b0" letter-spacing="4">
+      QUANTUM BIOINFORMATICS · PYTHON DEVELOPER
+    </text>
+  </g>
+  
+  <!-- Badges sous le texte -->
+  <g transform="translate(330, 200)">
+    <!-- Badge ChromoQ -->
+    <g>
+      <rect x="0" y="0" width="100" height="26" rx="13" fill="#0d1321" stroke="#00ffc8" stroke-width="1"/>
+      <circle cx="16" cy="13" r="5" fill="#00ffc8"/>
+      <text x="28" y="17" font-family="Arial, sans-serif" font-size="11" fill="#00ffc8">ChromoQ</text>
+    </g>
+    <!-- Badge PNPH -->
+    <g transform="translate(110, 0)">
+      <rect x="0" y="0" width="80" height="26" rx="13" fill="#0d1321" stroke="#7b5cff" stroke-width="1"/>
+      <circle cx="16" cy="13" r="5" fill="#7b5cff"/>
+      <text x="28" y="17" font-family="Arial, sans-serif" font-size="11" fill="#7b5cff">PNPH</text>
+    </g>
+    <!-- Badge ML -->
+    <g transform="translate(200, 0)">
+      <rect x="0" y="0" width="120" height="26" rx="13" fill="#0d1321" stroke="#ff6b9d" stroke-width="1"/>
+      <circle cx="16" cy="13" r="5" fill="#ff6b9d"/>
+      <text x="28" y="17" font-family="Arial, sans-serif" font-size="11" fill="#ff6b9d">AlphaFold2 ML</text>
+    </g>
+    <!-- Badge Panlunadra -->
+    <g transform="translate(330, 0)">
+      <rect x="0" y="0" width="110" height="26" rx="13" fill="#0d1321" stroke="#00d4ff" stroke-width="1"/>
+      <circle cx="16" cy="13" r="5" fill="#00d4ff"/>
+      <text x="28" y="17" font-family="Arial, sans-serif" font-size="11" fill="#00d4ff">Panlunadra</text>
+    </g>
+  </g>
+  
+  <!-- Particules flottantes -->
+  <g>
+    <circle cx="100" cy="50" r="2" fill="#00ffc8" opacity="0.6">
+      <animate attributeName="cy" values="50;40;50" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="250" r="1.5" fill="#7b5cff" opacity="0.5">
+      <animate attributeName="cy" values="250;240;250" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="80" r="2" fill="#ff6b9d" opacity="0.6">
+      <animate attributeName="cy" values="80;70;80" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="220" r="1.5" fill="#00d4ff" opacity="0.5">
+      <animate attributeName="cy" values="220;210;220" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="40" r="1" fill="#00ffc8" opacity="0.4">
+      <animate attributeName="cy" values="40;30;40" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="260" r="1" fill="#7b5cff" opacity="0.4">
+      <animate attributeName="cy" values="260;250;260" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Ligne de scan -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#cyberGrad1)" opacity="0.3">
+    <animate attributeName="y" values="0;300;0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

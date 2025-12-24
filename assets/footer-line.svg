@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100">
+  <defs>
+    <linearGradient id="footGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffc8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00ffc8"/>
+      <stop offset="40%" stop-color="#7b5cff"/>
+      <stop offset="60%" stop-color="#ff6b9d"/>
+      <stop offset="80%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glowFoot">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="100" fill="#0a0f1a"/>
+  
+  <!-- Central line -->
+  <line x1="0" y1="50" x2="800" y2="50" stroke="url(#footGrad)" stroke-width="2" filter="url(#glowFoot)"/>
+  
+  <!-- Hexagonal nodes -->
+  <g filter="url(#glowFoot)">
+    <polygon points="100,50 115,42 115,58 100,66 85,58 85,42" fill="none" stroke="#00ffc8" stroke-width="1.5"/>
+    <circle cx="100" cy="50" r="4" fill="#00ffc8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <polygon points="300,50 315,42 315,58 300,66 285,58 285,42" fill="none" stroke="#7b5cff" stroke-width="1.5"/>
+    <circle cx="300" cy="50" r="4" fill="#7b5cff">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <polygon points="500,50 515,42 515,58 500,66 485,58 485,42" fill="none" stroke="#ff6b9d" stroke-width="1.5"/>
+    <circle cx="500" cy="50" r="4" fill="#ff6b9d">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <polygon points="700,50 715,42 715,58 700,66 685,58 685,42" fill="none" stroke="#00d4ff" stroke-width="1.5"/>
+    <circle cx="700" cy="50" r="4" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Labels -->
+  <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8892b0">Code</text>
+  <text x="300" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8892b0">Science</text>
+  <text x="500" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8892b0">Create</text>
+  <text x="700" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8892b0">Dream</text>
+  
+  <!-- Traveling photon -->
+  <circle r="3" fill="#00ffc8" filter="url(#glowFoot)">
+    <animate attributeName="cx" values="0;800;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="50;50;50" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;1;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="50%" stop-color="#7b5cff"/>
+      <stop offset="100%" stop-color="#ff6b9d"/>
+    </linearGradient>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="100%" stop-color="#0d1321"/>
+    </linearGradient>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="roundedClip3">
+      <rect width="400" height="200" rx="12"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" rx="12" fill="url(#bgGrad3)"/>
+  
+  <!-- Stars background -->
+  <g clip-path="url(#roundedClip3)">
+    <circle cx="50" cy="30" r="1" fill="white" opacity="0.6"/>
+    <circle cx="120" cy="50" r="0.8" fill="white" opacity="0.4"/>
+    <circle cx="200" cy="20" r="1.2" fill="#00d4ff" opacity="0.7"/>
+    <circle cx="280" cy="45" r="0.6" fill="white" opacity="0.5"/>
+    <circle cx="350" cy="25" r="1" fill="#7b5cff" opacity="0.6"/>
+    <circle cx="380" cy="60" r="0.7" fill="white" opacity="0.4"/>
+    <circle cx="30" cy="90" r="0.5" fill="#ff6b9d" opacity="0.5"/>
+    <circle cx="370" cy="100" r="0.8" fill="white" opacity="0.3"/>
+  </g>
+  
+  <!-- Border gradient -->
+  <rect x="1" y="1" width="398" height="198" rx="11" fill="none" stroke="url(#cardGrad3)" stroke-width="2"/>
+  
+  <!-- Corner accents -->
+  <path d="M0,30 L0,12 A12,12 0 0,1 12,0 L40,0" fill="none" stroke="#00d4ff" stroke-width="2" filter="url(#glow3)"/>
+  <path d="M400,30 L400,12 A12,12 0 0,0 388,0 L360,0" fill="none" stroke="#00d4ff" stroke-width="2" filter="url(#glow3)"/>
+  <path d="M0,170 L0,188 A12,12 0 0,0 12,200 L40,200" fill="none" stroke="#ff6b9d" stroke-width="2" filter="url(#glow3)"/>
+  <path d="M400,170 L400,188 A12,12 0 0,1 388,200 L360,200" fill="none" stroke="#ff6b9d" stroke-width="2" filter="url(#glow3)"/>
+  
+  <!-- Status badge -->
+  <g transform="translate(285, 15)">
+    <rect x="0" y="0" width="100" height="20" rx="10" fill="#7b5cff" fill-opacity="0.15" stroke="#7b5cff" stroke-width="1"/>
+    <circle cx="12" cy="10" r="4" fill="#7b5cff">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="22" y="14" font-family="Arial, sans-serif" font-size="9" fill="#7b5cff" font-weight="600">WORLDBUILD</text>
+  </g>
+  
+  <!-- Icon - Panda-Dragon hybrid silhouette -->
+  <g transform="translate(25, 20)" filter="url(#glow3)">
+    <!-- Crystal/cave structure -->
+    <polygon points="30,50 20,35 25,20 35,25 45,15 50,30 40,45" fill="none" stroke="#00d4ff" stroke-width="1.5"/>
+    <!-- Telepathic waves -->
+    <path d="M35,25 Q50,20 55,30" fill="none" stroke="#7b5cff" stroke-width="1" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M35,25 Q55,15 65,25" fill="none" stroke="#7b5cff" stroke-width="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M35,25 Q60,10 70,20" fill="none" stroke="#7b5cff" stroke-width="1" opacity="0.4">
+      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <!-- Central consciousness point -->
+    <circle cx="35" cy="25" r="5" fill="#ff6b9d">
+      <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Memory crystal -->
+    <polygon points="15,45 10,55 15,60 25,55 20,45" fill="#00ffc8" fill-opacity="0.3" stroke="#00ffc8" stroke-width="1"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="95" y="45" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="url(#cardGrad3)">Panlunadra</text>
+  <text x="95" y="65" font-family="Arial, sans-serif" font-size="11" fill="#8892b0">Science Fiction Universe</text>
+  
+  <!-- Description -->
+  <text x="25" y="100" font-family="Arial, sans-serif" font-size="10" fill="#a8b2d1">
+    <tspan x="25" dy="0">🐼 Hybrid panda-dragon species with telepathic abilities</tspan>
+    <tspan x="25" dy="15">🌌 Underground civilizations &amp; memory crystals</tspan>
+    <tspan x="25" dy="15">📖 Timeline 2002-2142, science-backed worldbuilding</tspan>
+  </text>
+  
+  <!-- Tech tags -->
+  <g transform="translate(25, 160)">
+    <rect x="0" y="0" width="70" height="18" rx="9" fill="#00d4ff" fill-opacity="0.2" stroke="#00d4ff" stroke-width="0.5"/>
+    <text x="35" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#00d4ff">Telepathy</text>
+    
+    <rect x="80" y="0" width="80" height="18" rx="9" fill="#7b5cff" fill-opacity="0.2" stroke="#7b5cff" stroke-width="0.5"/>
+    <text x="120" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7b5cff">Biophotonics</text>
+    
+    <rect x="170" y="0" width="60" height="18" rx="9" fill="#ff6b9d" fill-opacity="0.2" stroke="#ff6b9d" stroke-width="0.5"/>
+    <text x="200" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#ff6b9d">Crystals</text>
+    
+    <rect x="240" y="0" width="80" height="18" rx="9" fill="#00ffc8" fill-opacity="0.2" stroke="#00ffc8" stroke-width="0.5"/>
+    <text x="280" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#00ffc8">Consciousness</text>
+    
+    <rect x="330" y="0" width="50" height="18" rx="9" fill="#ffeb3b" fill-opacity="0.2" stroke="#ffeb3b" stroke-width="0.5"/>
+    <text x="355" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#ffeb3b">Caves</text>
+  </g>
+</svg>
