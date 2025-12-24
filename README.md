@@ -65,11 +65,17 @@ class QuantumBioinformatician:
 ## ⚡ Quick Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yannbanas&show_icons=true&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&icon_color=7b5cff&ring_color=00ffc8" alt="GitHub Stats" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=yannbanas&show_icons=true&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&icon_color=7b5cff&ring_color=00ffc8&include_all_commits=true&count_private=true"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=yannbanas&show_icons=true&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&icon_color=7b5cff&ring_color=00ffc8&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yannbanas&hide_border=true&background=0a0f1a&stroke=1a2744&ring=00ffc8&fire=ff6b9d&currStreakNum=00ffc8&sideNums=7b5cff&currStreakLabel=00ffc8&sideLabels=8892b0&dates=5a6785" alt="GitHub Streak" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=yannbanas&hide_border=true&background=0a0f1a&stroke=1a2744&ring=00ffc8&fire=ff6b9d&currStreakNum=00ffc8&sideNums=7b5cff&currStreakLabel=00ffc8&sideLabels=8892b0&dates=5a6785"/>
+    <img src="https://streak-stats.demolab.com/?user=yannbanas&hide_border=true&background=0a0f1a&stroke=1a2744&ring=00ffc8&fire=ff6b9d&currStreakNum=00ffc8&sideNums=7b5cff&currStreakLabel=00ffc8&sideLabels=8892b0&dates=5a6785" alt="GitHub Streak" width="100%"/>
+  </picture>
 </p>
 
 </td>
@@ -241,11 +247,17 @@ gantt
 <br/>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yannbanas&bg_color=0a0f1a&color=00ffc8&line=7b5cff&point=ff6b9d&area=true&area_color=7b5cff&hide_border=true" alt="Contribution Graph" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=yannbanas&bg_color=0a0f1a&color=00ffc8&line=7b5cff&point=ff6b9d&area=true&area_color=7b5cff&hide_border=true&custom_title=Contribution%20Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=yannbanas&bg_color=0a0f1a&color=00ffc8&line=7b5cff&point=ff6b9d&area=true&area_color=7b5cff&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" width="100%"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yannbanas&layout=compact&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&langs_count=8" alt="Top Languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yannbanas&layout=compact&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&langs_count=8"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yannbanas&layout=compact&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&langs_count=8" alt="Top Languages"/>
+  </picture>
 </p>
 
 <br/>
@@ -258,14 +270,42 @@ gantt
 
 <br/>
 
-<p align="center">
-  <a href="https://github.com/yannbanas/mrkdwn_analysis">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yannbanas&repo=mrkdwn_analysis&hide_border=true&bg_color=0a0f1a&title_color=00ffc8&text_color=8892b0&icon_color=7b5cff" alt="mrkdwn_analysis"/>
-  </a>
-  <a href="https://github.com/yannbanas/chromoq">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yannbanas&repo=chromoq&hide_border=true&bg_color=0a0f1a&title_color=ff6b9d&text_color=8892b0&icon_color=7b5cff" alt="chromoq"/>
-  </a>
+<table align="center" border="0" cellspacing="10">
+<tr>
+<td align="center" width="50%">
+
+### 📝 mrkdwn_analysis
+
+<p>
+<img src="https://img.shields.io/badge/Python-00ffc8?style=flat-square&logo=python&logoColor=0a0f1a" alt="Python"/>
+<img src="https://img.shields.io/badge/NLP-7b5cff?style=flat-square" alt="NLP"/>
 </p>
+
+Markdown document analysis and processing toolkit with advanced parsing capabilities.
+
+<a href="https://github.com/yannbanas/mrkdwn_analysis">
+  <img src="https://img.shields.io/badge/View_Repo-00ffc8?style=for-the-badge&logo=github&logoColor=0a0f1a" alt="View Repo"/>
+</a>
+
+</td>
+<td align="center" width="50%">
+
+### 🧬 ChromoQ Pipeline
+
+<p>
+<img src="https://img.shields.io/badge/BioPython-ff6b9d?style=flat-square&logo=python&logoColor=white" alt="BioPython"/>
+<img src="https://img.shields.io/badge/AlphaFold2-7b5cff?style=flat-square" alt="AlphaFold2"/>
+</p>
+
+Quantum-enhanced chromophore protein design pipeline for PNPH project.
+
+<a href="https://github.com/yannbanas">
+  <img src="https://img.shields.io/badge/Coming_Soon-7b5cff?style=for-the-badge&logo=github&logoColor=white" alt="Coming Soon"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
